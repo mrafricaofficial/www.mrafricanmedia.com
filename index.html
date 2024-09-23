@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2be268ca3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic& Web Designer</p>
+                <h1>Hi, I'm <span>Kelvin</span> <br>Ngwenya From Zimbabwe</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------about------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/services.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> Hey, I'm Kelvin Ngwenya—a graphic designer specializing in web development, logos, branding, posters, portfolios, e-commerce sites, and more. I believe in the power of visuals to tell compelling stories. Let's collaborate to bring your vision to life through captivating design that resonates with your audience.</p>
+
+                    <div class="table-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic</span><br>All graphics interfaces</li>
+                            <li><span>Web Designing</span><br>Only html,css,js script interfaces</li>
+                            <li><span>App Designing</span><br>App Graphic design interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-now</span><br>Graphic & web development at Beauty Products by Gee (ptyltd)</li>
+                            <li><span>2023-now</span><br>graphic Designing for Tavonga Electricals & PA System (ptyltd)</li>
+                            <li><span>2024-now </span><br>graphic Designing for ZAOGA FIF Sunningdale church</li>
+                            <li><span>2023-now </span><br>graphic Designing for Fire Famimy Worship Embassy </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015-2020</span><br>high school at Nyamasanga Secondary School</li>
+                            <li><span>2021-2022</span><br>Graphic Designing at Alison Institute</li>
+                            <li><span>2022-Current</span><br>Web dev& Web at FreeCode Camp</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <!---------------------------services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Buiding digital dreams,one pixel at a time <br>Websites thats wow,shops that succeed <br>etc E-commerce,Portifolio</p>
+                    <a href="More.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Social Media Graphics</h2>
+                    <p>Visual storytelling that stops scrolls! <br>Leaving a lasting impression, one graphic at a time</p>
+                    <a href="More.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Branding & visual Identity</h2>
+                    <p>Bold brands start here! <br>Vision meets visual. <br> Images and Graphic tells a story ! <br> thats why dreams don't have narrators</p>
+                    <a href="More.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------***********--portfolio***************------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Work-1.jpg">
+                    <div class="layer">
+                        <h3>Social Media Post</h3>
+                        <p>The best visual for your social media to look 
+                            super cool and Gives you  a better Identity</p>
+                            <a href="More.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work-2.jpg">
+                    <div class="layer">
+                        <h3>E-commerce web</h3>
+                        <p>The best visual for your social media to look 
+                            super cool and Gives you  a better Identity</p>
+                            <a href="More.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work-3.jpg">
+                    <div class="layer">
+                        <h3>Portifolio</h3>
+                        <p>The best visual for your social media to look 
+                            super cool and Gives you  a better Identity</p>
+                            <a href="#about"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div> 
+            </div>
+            <a href="More.html" class="btn">See more</a>
+        </div>
+    </div>
+
+<!--------------contact------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>kedzangwenya@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+263 773 368 4275</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/profile.php?id=61565556885877&mibextid=ZbWKwl"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-x"></i></a>
+                    <a href="https://www.instagram.com/mrafricanmedia?igsh=bnAzNTFyd2pkcXFk"><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <a href="Images/Alison_certificate_transcript_graphic_design___visual_and_graphic_design (1).pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message Here!"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Mr Africa . made by <i class="fas fa-heart"></i> kedza media</p>
+    </div>
+</div>
+<button class="whatsapp-button">
+    <i class="fa fa-whatsapp"></i>
+</button>
+
+ <script>
+    const whatsappButton = document.querySelector('.whatsapp-button');
+    whatsappButton.addEventListener('click', () => {
+        const whatsappUrl = 'https://wa.me/+276144211788';
+        window.open(whatsappUrl, '_blank');
+    })
+ </script>
+
+
+
+    <script>
+
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       
+       function opentab(tabname){
+           for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+           }
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+       }
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxQL5Jabi-f9cwTMHMw-7u2TBXsSx5klZmZBVVSoIHbpG1tNw95Klcu_efDaZMm4R-0cA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },1000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
